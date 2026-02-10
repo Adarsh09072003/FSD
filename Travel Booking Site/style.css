@@ -27,7 +27,6 @@ body {
   font-size: 24px;
 }
 
-/* HERO */
 .hero {
   text-align: center;
   padding: 50px 20px;
@@ -102,3 +101,4 @@ footer {
     flex-direction: column;
   }
 }
+
