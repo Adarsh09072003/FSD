@@ -9,25 +9,12 @@
 
     <h2>Todo List</h2>
 
-    <input type="text" id="task">
+    <input type="text" id="task" placeholder="Enter a task">
     <button onclick="addTask()">Add</button>
 
     <ul id="list"></ul>
 
-    <script>
-        function addTask() {
-            let task = document.getElementById("task").value;
-
-            if (task === "") return;
-
-            let li = document.createElement("li");
-            li.innerHTML = task + 
-                " <button onclick='this.parentElement.remove()'>Remove</button>";
-
-            document.getElementById("list").appendChild(li);
-            document.getElementById("task").value = "";
-        }
-    </script>
+    <script src="script.js"></script>
 
 </body>
 </html>
